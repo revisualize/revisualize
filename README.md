@@ -1,14 +1,35 @@
-# Joseph
+# Joseph Tracy
 
-Senior infrastructure and enterprise storage engineer in Seattle, with over two decades in enterprise operations. I work backline escalation on enterprise distributed NAS platforms, hold subject matter expertise on a defined set of platform subsystems, and am moving deliberately into automation and systems design.
+Infrastructure and enterprise storage engineer in Seattle. More than two decades in production operations, currently working backline escalation on enterprise distributed NAS platforms and moving deliberately into automation and systems design.
 
-What I bring is judgment between tools rather than a count of them. Knowing when a problem wants a script, when it wants configuration management, and when it wants orchestration is a different skill from knowing the syntax of all three, and it is the part that holds up when a change has to be safe to run twice against a production system. That judgment came out of twenty-three years of production incidents rather than out of a course.
+The writing and the current work live at **[revisualized.com](https://revisualized.com)**.
 
-## Current work
+---
 
-Backline escalation resource since December 2018 on enterprise distributed NAS, and the named subject matter expert for remote support connectivity and telemetry transport, cluster health assessment frameworks, clusterwide event logging and notification delivery including SMTP and quota alerting, and distributed filesystem job engine execution and recovery.
+## How I work
 
-Work reaches me already escalated. That means production-impacting outages, Severity 1 recovery under aggressive deadlines, and politically sensitive accounts where the technical fault and the customer relationship have to be repaired in the same engagement. Alongside the casework I facilitate corrective-action reviews, mentor engineers on escalation handling and troubleshooting method, and route field-observed failure patterns back to platform engineering, where that feedback has influenced firmware and platform changes.
+What I bring is judgment between tools rather than a count of them. Knowing when a problem wants a script, when it wants configuration management, and when it wants orchestration is a different skill from knowing the syntax of all three, and it is the part that holds up when a change has to be safe to run twice against a production system. That judgment came out of production incidents rather than out of a course.
+
+Backline escalation means work arrives already escalated: production-impacting outages, Severity 1 recovery against aggressive deadlines, and accounts where the technical fault and the customer relationship have to be repaired in the same engagement. Alongside casework I facilitate corrective-action reviews, mentor engineers on escalation handling and troubleshooting method, and route field-observed failure patterns back to platform engineering.
+
+My specialization sits in the support-connectivity and observability layer: telemetry and call-home channels, event notification and SMTP alerting, health-check diagnostics, certificate and management-plane failures, and the platform job subsystem. Not the filesystem, protocol, networking, or directory-services layers.
+
+---
+
+## What I publish here
+
+Small operational tools, each built for a problem that recurs, each published with its source and its tests. No frameworks. A tool that only its author can run has not been finished.
+
+The standards are consistent across everything current in this account:
+
+- Safe to run twice against a live system
+- Fails closed, with the failure legible to whoever finds it at 3am
+- Dependencies checked before work begins, not discovered halfway through
+- Tests that can fail, rather than confidence in the output
+
+If you are evaluating whether I ship, read the test suites before the source.
+
+---
 
 ## Capability, tiered honestly
 
@@ -18,14 +39,20 @@ Work reaches me already escalated. That means production-impacting outages, Seve
 
 **What I am building toward.** Ansible, Kubernetes, Terraform at depth, cloud at depth, and GitOps. I learn these in public and I do not claim them.
 
-## Earlier background
+---
 
-Campus network and systems administration across 196 wireless access points and 55-plus virtualized Windows servers. NOC operations spanning 750-plus physical and virtual Linux and Windows servers across multiple data centers, including PowerShell-driven patch deployment to 215 servers. Sole IT administration for a roughly 100-person organization running its own Active Directory, Exchange, and backup stack. The through line is production ownership rather than project work.
+## Education and training
 
-## Training and coursework
+Network Design and Administration at Seattle Central College, 117 credits, covering the Cisco routing and switching track, Windows Server administration, UNIX, and the CompTIA A+, Network+, and Linux+ subject areas. Vocational certificate in Computer Services from Centennial Job Corps Center.
 
-Red Hat instructor-led coursework through my employer: RH124 (v8 and v9.3), RH134 (v8 and v9.3), and RH024 (v9.3). Kepner-Tregoe structured problem solving, 45 hours. These are course completions, not exams. I have not sat EX200 and I do not claim RHCSA.
+Instructor-led technical training since: Red Hat System Administration I and II (RH124 and RH134, v8 and v9.3) and RH024. Red Hat Ansible Basics (DO007). PowerScale administration, advanced administration, and advanced Bash scripting for OneFS. Kepner-Tregoe structured problem solving, 45 hours.
+
+These are course completions, not exams. I have not sat EX200 and I do not claim RHCSA.
+
+---
 
 ## About this account
 
-Older repositories here are coursework from earlier study and do not represent current work. The tooling I build day to day runs inside customer environments and is not publishable.
+Older repositories here are coursework from earlier study and do not represent current work. The tooling I build day to day runs inside customer environments and is not publishable, so what appears here is built independently, against public documentation and my own lab, on my own hardware and my own time.
+
+[revisualized.com](https://revisualized.com) · [LinkedIn](https://linkedin.com/in/josephtracy)
