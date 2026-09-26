@@ -55,4 +55,4 @@ These are course completions, not exams. I have not sat EX200 and I do not claim
 
 Older repositories here are coursework from earlier study and do not represent current work. The tooling I build day to day runs inside customer environments and is not publishable, so what appears here is built independently, against public documentation and my own lab, on my own hardware and my own time.
 
-[revisualized.com](https://revisualized.com) · [LinkedIn](https://linkedin.com/in/josephtracy)
+[revisualized.com](https://revisualized.com)
